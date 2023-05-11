@@ -4,7 +4,6 @@ Fabric script generates .tgz archive of all in web_static folder.
 """
 from fabric.api import local
 from datetime import datetime
-from time import strftime
 
 
 def do_pack():
